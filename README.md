@@ -46,8 +46,14 @@ python app.py
 ## Building Your Own .exe (PyInstaller)
 
 ```bash
-pip install pyinstaller
-pyinstaller --name app --windowed --onedir app.py
+# Create isolated build environment
+python -m venv .venv_build
+
+# Install required build packages
+.\.venv_build\Scripts\python.exe -m pip install numpy scipy sounddevice pyinstaller
+
+# Build executable package
+.\.venv_build\Scripts\pyinstaller.exe --noconfirm --onedir --windowed --add-data "icon.ico;." app.py
 ```
 
 The resulting build is created in the `dist/app/` folder (`app.exe` +
