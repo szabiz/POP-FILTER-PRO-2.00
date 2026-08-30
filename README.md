@@ -12,6 +12,7 @@ Copyright © 2026 szabiz — *Soli Deo Gloria*
 
 ## Project Structure
 
+```text
 PopFilterPro/
 ├── app.py                  # GUI application code (GPLv3)
 ├── cli.py                  # CLI interface code (GPLv3)
@@ -20,6 +21,7 @@ PopFilterPro/
 ├── LICENSE                 # Main project license: GNU General Public License v3.0
 ├── LICENSE-THIRD-PARTY.txt # Third-party dependency legal notices
 └── README.md               # Project description and usage guide
+```
 
 ## Running from Source
 
