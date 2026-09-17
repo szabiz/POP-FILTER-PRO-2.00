@@ -78,7 +78,7 @@ The third-party components bundled into the compiled `.exe` — NumPy, SciPy,
 python-sounddevice, PortAudio, Tcl/Tk, the Python Standard Library,
 the PyInstaller bootloader, CFFI, pycparser, setuptools, and packaging —
 are listed with their full license texts in
-[`THIRD-PARTY-LICENSES.txt`](THIRD-PARTY-LICENSES.txt). All of them are
+[`LICENSE-THIRD-PARTY.txt`](**THIRD-PARTY-LICENSES.txt**). All of them are
 either permissive licenses (BSD, MIT, MIT-0, Apache-2.0, PSF, the
 PortAudio license, the Tcl/Tk license) or, in the case of the PyInstaller
 bootloader, GPLv2 with the PyInstaller bootloader exception — all
