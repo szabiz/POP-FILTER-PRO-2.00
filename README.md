@@ -18,7 +18,9 @@ PopFilterPro/
 ├── cli.py                  # CLI interface code (GPLv3)
 ├── pop_core.py             # Core filter engine (GPLv3)
 ├── PopFilterPro.spec       # Spec file
+├── app.spec                # Spec file
 ├── icon.ico                # Application icon
+├── Build.bat               # Build - exe
 ├── LICENSE                 # Main project license: GNU General Public License v3.0
 ├── LICENSE-THIRD-PARTY.txt # Third-party dependency legal notices
 ├── README.md               # Project description and usage guide
