@@ -1,4 +1,4 @@
-# Copyright (C) 2026 szabiz - Soli Deo Gloria
+# Copyright (C) 2026 szabiz
 #
 # Pop Filter Pro Application
 # This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,7 @@
 
 """
 app.py - INTELLIGENS POP-FILTER GUI (v2.0 - Saját Natív Canvas Motor & Cubic Spline Görbe)
-Copyright (c) szabiz 2026 - Soli Deo Gloria
+Copyright (c) szabiz 2026
 """
 
 import sys
