@@ -39,6 +39,17 @@ default; on Linux you may need to install it separately, e.g.
 
 ### Launch
 
+You can run the application directly from source, or use the included batch script for Windows:
+
+**Using the Batch Script (Recommended for Windows):**
+Double-click `Build.bat` in the project root folder, or run it from the command line to package/build the application:
+
+```cmd
+Build.bat
+```
+
+**or**
+
 ```bash
 python app.py
 ```
