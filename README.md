@@ -12,17 +12,17 @@ Copyright © 2026 szabiz
 
 ## Project Structure
 
+```text
 PopFilterPro/
-├── app.py                     # GUI application code (GPLv3)
-├── cli.py                     # CLI interface code (GPLv3)
-├── pop_core.py                # Core filter engine (GPLv3)
-├── PopFilterPro.spec          # Spec file
-├── icon.ico                   # Application icon
-├── LICENSE                    # Main project license: GNU General Public License v3.0
-├── THIRD-PARTY-LICENSES.txt   # Third-party dependency legal notices
-├── README.md                  # This file
-└── README.txt                 # End-user readme, shipped alongside the compiled .exe
-
+├── app.py                  # GUI application code (GPLv3)
+├── cli.py                  # CLI interface code (GPLv3)
+├── pop_core.py             # Core filter engine (GPLv3)
+├── PopFilterPro.spec       # Spec file
+├── icon.ico                # Application icon
+├── LICENSE                 # Main project license: GNU General Public License v3.0
+├── LICENSE-THIRD-PARTY.txt # Third-party dependency legal notices
+├── README.md               # Project description and usage guide
+└── README.txt              # End-user readme, shipped alongside the compiled .exe
 ## Running from Source
 
 ### Requirements
