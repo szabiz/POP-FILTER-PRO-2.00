@@ -94,3 +94,9 @@ GPLv3, any contributed changes will also fall under the same license.
 Thanks to the NumPy, SciPy, and sounddevice development teams, as well as
 the researchers behind HPSS (Harmonic-Percussive Source Separation) and
 Wiener filtering, without whom this software could not have been created.
+
+## Screenshots
+
+![Pop Filter Pro - Main Interface](PopFilterPo_1.jpg)
+
+![Pop Filter Pro - Editor View](PopFilterPo_2.jpg)
