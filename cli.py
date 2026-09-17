@@ -1,4 +1,4 @@
-# Copyright (C) 2026 szabiz - Soli Deo Gloria
+# Copyright (C) 2026 szabiz
 #
 # Pop Filter Pro Application
 # This program is free software: you can redistribute it and/or modify
