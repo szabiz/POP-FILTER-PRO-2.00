@@ -1,26 +1,71 @@
-POP FILTER PRO - THIRD-PARTY LICENSE NOTICES
-====================================================
-This software (Pop Filter Pro) includes the following bundled third-party
-libraries in addition to its own codebase (GNU GPLv3).
-Retaining the following license notices is mandatory per their terms of use.
+POP FILTER PRO
+THIRD-PARTY LICENSE NOTICES
+========================================
 
+Pop Filter Pro v2.00
+Copyright (C) 2026 szabiz
 
---------------------------------------------------
-1) NumPy
---------------------------------------------------
+This file contains the applicable third-party license notices for the
+third-party components used by Pop Filter Pro.
+
+Pop Filter Pro itself is licensed under the GNU General Public License
+version 3 or later (GPL-3.0-or-later).
+
+The following eleven third-party components are documented here:
+
+  1. NumPy
+  2. SciPy
+  3. python-sounddevice
+  4. PortAudio
+  5. Tcl/Tk
+  6. Python Standard Library
+  7. PyInstaller Bootloader
+  8. CFFI
+  9. pycparser
+  10. setuptools
+  11. packaging
+
+Third-party copyrights remain with their respective copyright holders.
+
+IMPORTANT:
+
+This file reproduces the principal license texts applicable to the
+components listed above. Some of these projects, especially SciPy and the
+Python distribution, contain additional separately licensed third-party
+material. Those additional notices remain applicable to the corresponding
+bundled files and are not relicensed by Pop Filter Pro.
+
+The generated Pop Filter Pro executable may also contain runtime files,
+dynamic libraries, and support modules originating from the documented
+components above. Such files remain subject to their respective licenses.
+
+Some dependencies may themselves include additional third-party
+subcomponents under separate licenses. Where applicable, those licenses
+remain in force and are not superseded by this notice.
+
+======================================================================
+1. NUMPY
+======================================================================
+
+NumPy is distributed under a BSD 3-Clause license.
+
+BSD 3-Clause License
+--------------------
+
 Copyright (c) 2005-2026, NumPy Developers.
-All rights reserved.
 
-License: BSD 3-Clause License
+All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 
-1. Redistributions of source code must retain the above copyright notice,
-   this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright
-   notice, this list of conditions and the following disclaimer in the
-   documentation and/or other materials provided with the distribution.
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
 3. Neither the name of the copyright holder nor the names of its
    contributors may be used to endorse or promote products derived from
    this software without specific prior written permission.
@@ -30,116 +75,654 @@ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
 IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
 ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
 LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE.
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
 
+Official project:
+https://numpy.org/
 
---------------------------------------------------
-2) SciPy
---------------------------------------------------
-Copyright (c) 2001-2026, SciPy Developers.
+======================================================================
+2. SCIPY
+======================================================================
+
+SciPy is distributed under the BSD 3-Clause License.
+
+BSD 3-Clause License
+--------------------
+
+Copyright (c) 2009-2024, SciPy Developers
+
 All rights reserved.
 
-License: BSD 3-Clause License (same terms as NumPy, see section 1)
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
 
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
 
---------------------------------------------------
-3) sounddevice
---------------------------------------------------
-Copyright (c) 2015-2026, Matthias Geier
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
 
-License: MIT License
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from this
+   software without specific prior written permission.
 
-Permission is hereby granted, free of charge, to any person obtaining a
-copy of this software and associated documentation files (the "Software"),
-to deal in the Software without restriction, including without limitation
-the rights to use, copy, modify, merge, publish, distribute, sublicense,
-and/or sell copies of the Software, subject to the following conditions:
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
 
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the Software.
+Official project:
+https://scipy.org/
+
+ADDITIONAL SCIPY LICENSE NOTICE:
+SciPy distributions contain additional separately licensed third-party
+components. SciPy publishes a bundled-license inventory in
+LICENSES_bundled.txt. Those component-specific notices and licenses remain
+applicable to the corresponding SciPy files.
+
+Official bundled-license inventory:
+https://github.com/scipy/scipy/blob/main/LICENSES_bundled.txt
+
+======================================================================
+3. PYTHON-SOUNDDEVICE
+======================================================================
+
+Copyright (c) 2015, Matthias Geier
+
+MIT License
+----------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+Official project:
+https://github.com/spatialaudio/python-sounddevice
+
+Official documentation:
+https://python-sounddevice.readthedocs.io/
+
+======================================================================
+4. PORTAUDIO
+======================================================================
+
+PortAudio is distributed under the PortAudio license. The license text
+below is the license text used by the PortAudio project.
+
+PortAudio Portable Real-Time Audio Library
+
+Copyright (c) 1999-2000 Ross Bencina, Phil Burk
+Copyright notices in individual PortAudio source files remain applicable.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+The text above constitutes the PortAudio license. The PortAudio community
+also makes the following non-binding request:
+
+Any person wishing to distribute modifications to the Software is requested
+to send the modifications to the original developer so that they can be
+incorporated into the canonical version. It is also requested that this
+non-binding request be included along with the official license.
+
+Official project:
+https://github.com/PortAudio/portaudio
+
+Official license file:
+https://github.com/PortAudio/portaudio/blob/master/LICENSE.txt
+
+======================================================================
+5. TCL/TK
+======================================================================
+
+Tcl/Tk uses the following license terms.
+
+TCL/TK LICENSE TERMS
+--------------------
+
+This software is copyrighted by the Regents of the University of
+California, Sun Microsystems, Inc., Scriptics Corporation, ActiveState
+Corporation, Apple Inc. and other parties.  The following terms apply to
+all files associated with the software unless explicitly disclaimed in
+individual files.
+
+The authors hereby grant permission to use, copy, modify, distribute,
+and license this software and its documentation for any purpose, provided
+that existing copyright notices are retained in all copies and that this
+notice is included verbatim in any distributions. No written agreement,
+license, or royalty fee is required for any of the authorized uses.
+Modifications to this software may be copyrighted by their authors
+and need not follow the licensing terms described here, provided that
+the new terms are clearly indicated on the first page of each file where
+they apply.
+
+IN NO EVENT SHALL THE AUTHORS OR DISTRIBUTORS BE LIABLE TO ANY PARTY
+FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF THE USE OF THIS SOFTWARE, ITS DOCUMENTATION, OR ANY
+DERIVATIVES THEREOF, EVEN IF THE AUTHORS HAVE BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+THE AUTHORS AND DISTRIBUTORS SPECIFICALLY DISCLAIM ANY WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.  THIS SOFTWARE
+IS PROVIDED ON AN "AS IS" BASIS, AND THE AUTHORS AND DISTRIBUTORS HAVE
+NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR
+MODIFICATIONS.
+
+GOVERNMENT USE: If you are acquiring this software on behalf of the
+U.S. government, the Government shall have only "Restricted Rights"
+in the software and related documentation as defined in the Federal
+Acquisition Regulations (FARs) in Clause 52.227.19 (c) (2).  If you
+are acquiring the software on behalf of the Department of Defense, the
+software shall be classified as "Commercial Computer Software" and the
+Government shall have only "Restricted Rights" as defined in Clause
+252.227-7013 (b) (3) of DFARs.  Notwithstanding the foregoing, the
+authors grant the U.S. Government and others acting in its behalf
+permission to use and distribute the software in accordance with the
+terms specified in this license.
+
+Official Tk license:
+https://github.com/tcltk/tk/blob/main/license.terms
+
+Official Tcl project:
+https://github.com/tcltk/tcl
+
+NOTE:
+Tcl/Tk distributions may contain additional file-specific copyright notices.
+Those notices remain applicable.
+
+======================================================================
+6. PYTHON STANDARD LIBRARY
+======================================================================
+
+Python software and documentation are licensed under the Python Software
+Foundation License Version 2.
+
+PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2
+--------------------------------------------
+
+1. This LICENSE AGREEMENT is between the Python Software Foundation ("PSF"),
+and the Individual or Organization ("Licensee") accessing and otherwise using
+this software ("Python") in source or binary form and its associated
+documentation.
+
+2. Subject to the terms and conditions of this License Agreement, PSF hereby
+grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce,
+analyze, test, perform and/or display publicly, prepare derivative works,
+distribute, and otherwise use Python alone or in any derivative version,
+provided, however, that PSF's License Agreement and PSF's notice of copyright,
+i.e., "Copyright © 2001-2023 Python Software Foundation; All Rights
+Reserved" are retained in Python alone or in any derivative version prepared
+by Licensee.
+
+3. In the event Licensee prepares a derivative work that is based on or
+incorporates Python or any part thereof, and wants to make the derivative
+work available to others as provided herein, then Licensee hereby agrees to
+include in any such work a brief summary of the changes made to Python.
+
+4. PSF is making Python available to Licensee on an "AS IS" basis.
+PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF
+EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND DISCLAIMS ANY REPRESENTATION OR
+WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT
+THE USE OF PYTHON WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON FOR ANY
+INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF
+MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON, OR ANY DERIVATIVE
+THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+6. This License Agreement will automatically terminate upon a material breach
+of its terms and conditions.
+
+7. Nothing in this License Agreement shall be deemed to create any
+relationship of agency, partnership, or joint venture between PSF and
+Licensee. This License Agreement does not grant permission to use PSF
+trademarks or trade name in a trademark sense to endorse or promote products
+or services of Licensee, or any third party.
+
+8. By copying, installing or otherwise using Python, Licensee agrees to be
+bound by the terms and conditions of this License Agreement.
+
+Official Python license documentation:
+https://docs.python.org/3/license.html
+
+IMPORTANT:
+The Python distribution also contains software under other licenses. Python's
+official documentation lists these additional licenses. If those components
+are bundled into the distributed application, their notices remain
+applicable.
+
+======================================================================
+7. PYINSTALLER BOOTLOADER
+======================================================================
+
+PyInstaller is distributed under a dual-licensing scheme involving the GNU
+General Public License version 2.0 with an exception, and the Apache License
+2.0 for certain files.
+
+The PyInstaller documentation states that executable bundles generated by
+PyInstaller from application source code may be shipped under the
+application's chosen license, provided that the licenses of the application's
+dependencies are complied with.
+
+PyInstaller GPLv2 Bootloader Exception
+--------------------------------------
+
+The PyInstaller bootloader is covered by the GNU General Public License
+version 2.0 together with the special PyInstaller exception.
+
+The exception permits the bootloader to be used in executable bundles
+generated from application source code and permits those generated bundles
+to be distributed under the application's own license, subject to the
+licenses of the application's dependencies.
+
+PyInstaller also states that its executable bundles do not require the
+PyInstaller license file or a PyInstaller acknowledgement solely because
+PyInstaller was used to create the bundle.
+
+Official PyInstaller licensing documentation:
+https://pyinstaller.org/en/v6.22.3/license.html
+
+Official PyInstaller COPYING file:
+https://github.com/pyinstaller/pyinstaller/blob/develop/COPYING.txt
+
+IMPORTANT:
+The exact license applicable to individual PyInstaller source files is
+identified by PyInstaller's COPYING.txt. The Apache-2.0 portion applies only
+to the files identified there. This notice specifically documents the
+bootloader used in the generated Pop Filter Pro executable.
+
+======================================================================
+8. CFFI
+======================================================================
+
+CFFI is distributed under the MIT No License.
+
+Copyright (c) Armin Rigo and contributors
 
 
---------------------------------------------------
-4) PortAudio (Audio Engine used by sounddevice)
---------------------------------------------------
-Copyright (c) 1999-2026 Ross Bencina and Phil Burk
+Except when otherwise stated (look for LICENSE files in directories or
+information at the beginning of each file) all software and
+documentation is licensed as follows: 
 
-License: MIT-style License (PortAudio License)
-Permission is hereby granted, free of charge, to any person obtaining a
-copy of this software and associated documentation files, to deal in the
-Software without restriction, subject to inclusion of the above copyright
-notice in all copies or substantial portions of the Software.
+MIT No Attribution
 
+Permission is hereby granted, free of charge, to any person 
+obtaining a copy of this software and associated documentation 
+files (the "Software"), to deal in the Software without 
+restriction, including without limitation the rights to use, 
+copy, modify, merge, publish, distribute, sublicense, and/or 
+sell copies of the Software, and to permit persons to whom the 
+Software is furnished to do so.
 
---------------------------------------------------
-5) setuptools
---------------------------------------------------
-Copyright (c) Python Packaging Authority (PyPA)
-
-License: MIT License (see terms in section 3 above)
-
-
---------------------------------------------------
-6) cffi (_cffi_backend)
---------------------------------------------------
-Copyright (c) 2012-2026, Armin Rigo, Maciej Fijalkowski
-
-License: MIT License (see terms in section 3 above)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
 
 
---------------------------------------------------
-7) Tcl/Tk (tcl8, _tcl_data, _tk_data, _tkinter)
---------------------------------------------------
-Copyright (c) 1987-2026 The Regents of the University of California,
-Sun Microsystems, Inc., Scriptics Corporation, ActiveState Corporation
-and other parties.
+Official project:
+https://github.com/python-cffi/cffi
 
-License: TCL/TK License (BSD-style)
+======================================================================
+9. PYCPARSER
+======================================================================
 
-This software is copyrighted by the parties listed above. The following
-terms apply to all files associated with the software:
+pycparser is distributed under a BSD 3 License.
 
-Permission to use, copy, modify, and distribute this software and its
-documentation for any purpose and without fee is hereby granted, provided
-that the above copyright notice appear in all copies. The parties listed
-above make no representations about the suitability of this software for
-any purpose. It is provided "as is" without express or implied warranty.
+pycparser -- A C parser in Python
 
+Copyright (c) 2008-2022, Eli Bendersky
+All rights reserved.
 
---------------------------------------------------
-8) Python Standard Library
-   (base_library.zip, _asyncio, _bz2, _ctypes, _decimal, _hashlib,
-    _lzma, _multiprocessing, _overlapped, _queue, _socket, _ssl, _wmi)
---------------------------------------------------
-Copyright (c) 2001-2026 Python Software Foundation.
-All Rights Reserved.
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
 
-License: PSF License Agreement (permissive, GPL-compatible)
-Full text: https://docs.python.org/3/license.html
+* Redistributions of source code must retain the above copyright notice, this 
+  list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice, 
+  this list of conditions and the following disclaimer in the documentation 
+  and/or other materials provided with the distribution.
+* Neither the name of the copyright holder nor the names of its contributors may 
+  be used to endorse or promote products derived from this software without 
+  specific prior written permission.
 
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE 
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE 
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT 
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
+OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
---------------------------------------------------
-9) PyInstaller (bootloader)
---------------------------------------------------
-Copyright (c) 2010-2026, PyInstaller Development Team
+Official project:
+https://github.com/eliben/pycparser
 
-License: GPLv2 with a linking exception for the bootloader.
+======================================================================
+10. SETUPTOOLS
+======================================================================
 
-"The bootloader ... is covered by the GPL license WITH A SPECIAL EXCEPTION
-which allows you to use PyInstaller to build and distribute non-free
-programs (including commercial ones)." This special exception legally enables 
-full license compatibility between PyInstaller's GPLv2 bootloader and the 
-application's own GNU GPLv3 license inside the compiled executable binary.
-Full text: https://github.com/pyinstaller/pyinstaller/blob/develop/COPYING.txt
+setuptools is distributed under the MIT License.
 
+MIT License
+-----------
 
-====================================================
-Pop Filter Pro Application Source Code (pop_core.py, app.py, cli.py):
-Copyright (c) 2026 szabiz - Soli Deo Gloria
-Licensed under the GNU General Public License v3.0 (GPLv3)
+Copyright Jason R. Coombs
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+
+Official project:
+https://github.com/pypa/setuptools
+
+NOTE:
+setuptools bundles ("vendors") a number of additional third-party
+libraries under its own _vendor directory. Those bundled libraries remain
+under their own respective licenses. setuptools is included in this notice
+because analysis of the Pop Filter Pro build shows it is imported at
+runtime (not only used as a build-time tool).
+
+======================================================================
+11. PACKAGING
+======================================================================
+
+packaging is dual-licensed under your choice of the Apache License,
+Version 2.0, or the BSD 2-Clause License.
+
+Copyright (c) Donald Stufft and individual contributors.
+
+This software is made available under the terms of EITHER of the licenses
+found below (Apache-2.0 or BSD-2-Clause). You may choose either license.
+
+----------------------------------------------------------------------
+11a. Apache License, Version 2.0
+----------------------------------------------------------------------
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but not
+      limited to compiled object code, generated documentation, and
+      conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work.
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other
+      modifications represent, as a whole, an original work of authorship.
+
+      "Contribution" shall mean any work of authorship, including the
+      original version of the Work and any modifications or additions to
+      that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work.
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of this
+      License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have
+      made, use, offer to sell, sell, import, and otherwise transfer the
+      Work.
+
+   4. Redistribution. You may reproduce and distribute copies of the Work
+      or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You meet
+      the following conditions: (a) give any other recipients a copy of
+      this License; (b) cause any modified files to carry prominent
+      notices stating that You changed the files; (c) retain, in the
+      Source form, all copyright, patent, trademark, and attribution
+      notices from the Source form of the Work; and (d) if the Work
+      includes a "NOTICE" text file, any Derivative Works that You
+      distribute must include a readable copy of the attribution notices
+      contained within such NOTICE file.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or agreed
+      to in writing, Licensor provides the Work on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or
+      conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS
+      FOR A PARTICULAR PURPOSE.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort, contract, or otherwise, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages arising as a result of this
+      License or out of the use or inability to use the Work.
+
+   9. Accepting Warranty or Additional Liability. While redistributing the
+      Work, You may choose to offer, and charge a fee for, acceptance of
+      support, warranty, indemnity, or other liability obligations
+      consistent with this License. However, in accepting such
+      obligations, You may act only on Your own behalf and on Your sole
+      responsibility, not on behalf of any other Contributor.
+
+   Copyright 2014 Donald Stufft
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+----------------------------------------------------------------------
+11b. BSD 2-Clause License
+----------------------------------------------------------------------
+
+Copyright (c) Donald Stufft and individual contributors.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+Official project:
+https://github.com/pypa/packaging
+
+NOTE:
+packaging is included in this notice because analysis of the Pop Filter
+Pro build shows it is imported at runtime (not only used as a build-time
+tool), most likely as a transitive dependency pulled in by NumPy/SciPy or
+by the bundled copy of setuptools.
+
+======================================================================
+12. POP FILTER PRO LICENSE NOTICE
+======================================================================
+
+The following is NOT a third-party license.
+
+Pop Filter Pro
+Copyright (C) 2026 szabiz
+
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+A copy of the GNU General Public License should accompany the program.
+
+GNU GPLv3:
 https://www.gnu.org/licenses/gpl-3.0.html
-====================================================
+
+======================================================================
+13. COMPONENT SUMMARY
+======================================================================
+
+Component                    License
+----------------------------------------------------------------------
+NumPy                        BSD 3-Clause
+SciPy                        BSD 3-Clause
+python-sounddevice           MIT
+PortAudio                    PortAudio License
+Tcl/Tk                       Tcl/Tk License
+Python Standard Library      Python Software Foundation License Version 2
+PyInstaller Bootloader       GPLv2 with PyInstaller exception
+CFFI                         MIT No Attribution (MIT-0)
+pycparser                    BSD 3-Clause
+setuptools                   MIT
+packaging                    Apache License 2.0 OR BSD 2-Clause
+----------------------------------------------------------------------
+Pop Filter Pro itself        GPL-3.0-or-later
+
+======================================================================
+14. COMPLIANCE NOTE
+======================================================================
+
+This document does not relicense any third-party software.
+
+The Pop Filter Pro source code is licensed under GPL-3.0-or-later.
+The third-party components remain under their respective licenses.
+
+When distributing a binary build, retain the applicable copyright and
+license notices for the bundled third-party components.
+
+For SciPy and Python in particular, additional incorporated third-party
+software may carry separate license notices. Those notices are not replaced
+by the principal project license and must be respected when the corresponding
+files are distributed.
+
+This file should therefore be distributed with the Pop Filter Pro source
+release and, where appropriate, with binary distributions.
+
+======================================================================
+END OF THIRD-PARTY LICENSE NOTICES
+======================================================================
