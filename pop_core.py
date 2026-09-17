@@ -1,4 +1,4 @@
-# Copyright (C) 2026 szabiz - Soli Deo Gloria
+# Copyright (C) 2026 szabiz
 #
 # Pop Filter Pro Application
 # This program is free software: you can redistribute it and/or modify
@@ -17,7 +17,7 @@
 """
 pop_core.py - MEMORY-EFFICIENT CHUNKED POP FILTER ENGINE (v2,0 - Egyedi Régió Támogatással)
 Alacsony RAM-használat 30+ perces fájlokhoz SSD-lapozás és lefagyás nélkül.
-Copyright (c) szabiz 2026 - Soli Deo Gloria
+Copyright (c) szabiz 2026
 """
 
 import numpy as np
